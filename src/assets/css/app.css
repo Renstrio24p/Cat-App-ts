@@ -1,0 +1,190 @@
+h1 {
+    font-weight: 500;
+    color: white;
+    font-size: 3vw;
+}
+
+.ts-div {
+    display: flex;
+    color: white;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+}
+
+.ts-div2 {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.ts-div p {
+    margin: 0;
+}
+
+.ts {
+    width: 5rem;
+    border-radius: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    will-change: filter;
+    transition: filter 300ms;
+}
+
+.ts:hover {
+    filter: drop-shadow(0 0 2em #05d8fdaa);
+}
+
+.webpack:hover {
+    filter: drop-shadow(0 0 2em #e1eef2aa);
+}
+
+.ts-div {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.ts-div .logo {
+    width: 8rem;
+    height: auto;
+}
+
+.apps,button {
+    padding: 5px 10px;
+    background-color: #0e4b4f;
+    border-radius: 5px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 0.5rem;
+}
+
+.buttons :nth-of-type(1),
+.buttons :nth-of-type(3){
+    cursor: pointer;
+}
+
+.buttons :nth-of-type(1):hover,
+.buttons :nth-of-type(3):hover{
+    background-color: #1a9b9b;
+}
+
+button {
+    border: none;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.yellow {
+    color: rgb(255, 255, 1);
+}
+
+.red {
+    color: rgb(253, 53, 53)
+}
+
+.white {
+    color: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 1%;
+    left: 1%;
+    right: 1.5%;
+    color: white;
+}
+
+.footer .github {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.footer .github p {
+    margin: 0; 
+}
+
+.footer .git {
+    filter: drop-shadow(0 0 2em #fcfcfc);
+}
+
+.footer .gitlogo {
+    width: 6rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.footer .gitlogo img {
+    width: 100%;
+    height: auto; 
+}
+
+div.ts {
+    width: 2rem;
+}
+
+.version {
+    font-weight: 400;
+}
+
+
+
+@media screen and (max-width: 1084px) {
+    
+
+    .ts-div {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .buttons {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 730px) {
+
+    .ts-div h1 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .ts-div {
+        flex-direction: column;
+        transition: all .5s;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 498px) {
+    .buttons {
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width:364px) {
+
+    h1.title {
+        font-size: 8vw;
+    }
+
+    .ts-div2 {
+        justify-content: center;
+    }
+}
